@@ -24,11 +24,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Sort::Hash::Values",
   "PREREQ_PM" => {
-    "Exporter" => 0,
+    "Exporter" => "5.59",
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.1.0",
+  "VERSION" => "0.1.1",
   "test" => {
     "TESTS" => "t/*.t"
   }

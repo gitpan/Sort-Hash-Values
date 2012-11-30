@@ -16,7 +16,7 @@ meta-spec:
   version: 1.4
 name: Sort-Hash-Values
 requires:
-  Exporter: 0
+  Exporter: 5.59
   strict: 0
   warnings: 0
-version: 0.1.0
+version: 0.1.1

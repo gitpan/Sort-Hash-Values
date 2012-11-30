@@ -1,10 +1,10 @@
 package Sort::Hash::Values;
 {
-  $Sort::Hash::Values::VERSION = '0.1.0';
+  $Sort::Hash::Values::VERSION = '0.1.1';
 }
 use strict;
 use warnings;
-use Exporter qw/import/;
+use Exporter 5.59 qw/import/;
 our @EXPORT = our @EXPORT_OK = qw/sort_values/;
 
 # Returns keys of sorted hash values
